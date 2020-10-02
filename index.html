@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merge Sort</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <div class="content">
+      <h1 class="content__title">Merge Sort</h1>
+      <p class="content__subtitle content__subtitle_violet">// Это программа для сортировки массивов</p>
+      <p class="content__pharagraph">Введите массив целых чисел через запятую:</p>
+      <div class="content__body">
+        <form id="search" action="#">
+          <input type="text" placeholder="Пример: 5,1,6,11,5,10" pattern="^[0-9\\,]+$" required>
+          <span class="form__error">Поле должно содержать только цифры через запятую</span>
+          <button type="submit">Press start</button>
+        </form>
+        <div class="content__subtitle content__subtitle_blue">
+          Отсортированный массив:
+          <div class="output__block">[
+            <span class="output__array"></span> ]
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
