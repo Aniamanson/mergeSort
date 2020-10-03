@@ -11,7 +11,7 @@
 }
 
 .content {
-  max-width: 600px;
+  max-width: 350px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -46,7 +46,6 @@
 }
 
 .content__body {
-  max-width: 350px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -108,11 +107,21 @@ button:hover {
   font-weight: bold;
 }
 
+.wrap {
+  margin: 15px 0 50px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .output__block {
-  margin-top: 15px
+  font-size: 40px;
 }
 
 .output__array {
-  margin-top: 10px;
   color: white;
+  word-wrap: break-word;
+  max-width: 88%;
+  font-size: 18px;
 }
